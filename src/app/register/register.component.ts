@@ -8,7 +8,7 @@ import { UserModel } from '../models/user.model';
 })
 export class RegisterComponent implements OnInit {
   userModel: UserModel;
-
+  myform;
   constructor() {
     this.userModel = <UserModel>{};
    }

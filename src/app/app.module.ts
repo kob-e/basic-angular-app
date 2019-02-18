@@ -9,7 +9,6 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { MemberComponent } from './member/member.component';
 import { RegisterComponent } from './register/register.component';
-import { PricesPipe } from './prices.pipe';
 import { CurrencyPipe } from './pipes/currency.pipe';
 
 @NgModule({
