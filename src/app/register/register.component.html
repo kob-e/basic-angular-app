@@ -1,0 +1,21 @@
+<form #myForm="ngForm">
+  <div>
+    <label>name:
+      <input [(ngModel)]='userModel.name' 
+      name='userName' placeholder='name' required>
+    </label>
+    <label>age:
+      <input [(ngModel)]='userModel.age' name='userAge' placeholder='age'>
+    </label>
+  </div>
+  <label>gender:
+    <input [(ngModel)]='userModel.gender' name='userGender' placeholder='gender'>
+  </label>
+  <label>cellphone:
+    <input [(ngModel)]='userModel.cellphone' name='userCellphone' placeholder='cellphone'>
+  </label>
+  <div>
+    <button [disabled]="myForm.form.invalid" (click)="registerUser(myform)">Register</button>
+  </div>
+  {{ userModel | json }} 
+</form>
