@@ -1,0 +1,10 @@
+{
+    "members": [
+        {
+            "id": 1,
+            "budgetUSD": 100,
+            "totalProducts": 3,
+            "lastPurchase": 1516744800000
+        }
+    ]
+}

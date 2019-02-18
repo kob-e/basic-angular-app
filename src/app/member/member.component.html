@@ -1,3 +1,6 @@
-<p>
-  member works!
-</p>
+<div *ngIf='memberData'>
+  <p>id: {{ memberData.id }}</p>
+  <p>budget (ILS): {{ memberData.budgetUSD | currency }}</p>
+  <p>totalProducts: {{ memberData.totalProducts }}</p>
+  <p>lastPurchase: {{ memberData.lastPurchase }}</p>
+</div>

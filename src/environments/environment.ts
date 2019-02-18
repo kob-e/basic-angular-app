@@ -4,8 +4,19 @@
 
 export const environment = {
   production: false,
-  tokenKey: 'token'
+  tokenKey: 'token',
+  serverUrl: 'http://localhost:3000/',
+  serverUrlAuth: 'http://localhost:3000/664/',
+  currency: 'NIS' 
 };
+/*
+NNN (owner, authenticated, guest)
+Read — 4
+
+Write — 2
+
+Execute — 1
+*/
 
 /*
  * For easier debugging in development mode, you can import the following file
